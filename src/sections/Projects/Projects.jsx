@@ -1,7 +1,7 @@
 import styles from "./ProjectsStyles.module.css";
 import spotifyImage from "../../assets/Spotify_App_Logo.svg.png";
 import universityImage from "../../assets/Hoc-phi-dai-hoc-tai-nguyen-va-moi-truong-tphcm-2.png";
-import furnitureImage from "../../assets/thiet-ke-logo-noi-that-dep-doc-la-voi-nhieu-uu-dai-5_1584000050.jpg";
+import soundService from "../../assets/sound-service.jpg";
 import ProjectCard from "../../common/ProjectCard";
 
 const Projects = () => {
@@ -22,9 +22,9 @@ const Projects = () => {
           p="Web App"
         />
         <ProjectCard
-          src={furnitureImage}
-          link="https://github.com/hoofkhanh/springboot-furniture_store-root"
-          h3="Furniture Shop"
+          src={soundService}
+          link="https://github.com/hoofkhanh/springboot-microservice-sound_service_web"
+          h3="Microservice Web (Sound Service)"
           p="Web App"
         />
       </div>

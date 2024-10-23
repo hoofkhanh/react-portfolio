@@ -8,7 +8,7 @@ import githubLight from "../../assets/github-light.svg";
 import githubDark from "../../assets/github-dark.svg";
 import linkedinLight from "../../assets/linkedin-light.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
-import  CV from "../../assets/CV.pdf";
+import  CV from "../../assets/Resumé.pdf";
 import { useContext } from 'react';
 import {ThemeContext} from '../../common/ThemeContext';
 
@@ -39,8 +39,8 @@ function Hero() {
         <img onClick={toggleTheme} className={styles.colorMode} src={themeIcon} alt="Color mode icon"  />
       </div>
       <div className={styles.info}>
-        <h1>Hồ <br /> Khanh</h1>
-        <h2>Full Stack Developer</h2>
+        <h1>Hồ Tuấn Khanh</h1>
+        <h2>Software Engineer</h2>
         <span>
           <a href="https://twitter.com" target='_blank' >
             <img src={twitterIcon} alt="Twitter icon" />
@@ -48,11 +48,15 @@ function Hero() {
           <a href="https://github.com/hoofkhanh?tab=repositories" target='_blank' >
             <img src={githubIcon} alt="Github icon" />
           </a>
-          <a href="https://linkedin.com" target='_blank' >
+          <a href="https://www.linkedin.com/in/khanh-h%E1%BB%93-b006b3312" target='_blank' >
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
         </span>
-        <p className={styles.description}>Hồ Tuấn Khanh đến từ TP.Hồng Ngự tỉnh Đồng Tháp.</p>
+        <p className={styles.description}> 
+          I am a student at the University of Natural Resources
+          and Environment in Ho Chi Minh City. I’m from Hong
+          Ngu city, Dong Thap province.
+        </p>
         <a href={CV} download>
           <button className="hover" >
             Resume

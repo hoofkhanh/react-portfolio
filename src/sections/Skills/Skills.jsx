@@ -14,25 +14,26 @@ const Skills = () => {
     <section id="skills" className={styles.container}>
       <h1>Skills</h1>
       <div className={styles.skillList}>
+        <SkillList src={checkMarkIcon} skill="JAVA" />
+        <SkillList src={checkMarkIcon} skill="Spring boot" />
+        <SkillList src={checkMarkIcon} skill="Spring cloud" />
+        <SkillList src={checkMarkIcon} skill="JS" />
+        <SkillList src={checkMarkIcon} skill="React" />
         <SkillList src={checkMarkIcon} skill="HTML" />
         <SkillList src={checkMarkIcon} skill="CSS" />
-        <SkillList src={checkMarkIcon} skill="JS" />
-        <SkillList src={checkMarkIcon} skill="Bootstrap" />
-        <SkillList src={checkMarkIcon} skill="React" />
+        <SkillList src={checkMarkIcon} skill="Boostrap" />
       </div>
       <hr  />
       <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill="JAVA" />
         <SkillList src={checkMarkIcon} skill="Postgresql" />
         <SkillList src={checkMarkIcon} skill="MySql" />
         <SkillList src={checkMarkIcon} skill="SqlServer" />
         <SkillList src={checkMarkIcon} skill="MongoDB" />
-        <SkillList src={checkMarkIcon} skill="Cassandra" />
       </div>
       <hr />
       <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill="Git" />
-        <SkillList src={checkMarkIcon} skill="Docker" />
+        <SkillList src={checkMarkIcon} skill="Git (basic)" />
+        <SkillList src={checkMarkIcon} skill="Docker (basic)" />
       </div>
     </section>
    );
