@@ -24,7 +24,7 @@ const Projects = () => {
         <ProjectCard
           src={soundService}
           link="https://github.com/hoofkhanh/springboot-microservice-sound_service_web"
-          h3="Microservice Web (Sound Service)"
+          h3="Sound Service Web (Microservice)"
           p="Web App"
         />
       </div>
