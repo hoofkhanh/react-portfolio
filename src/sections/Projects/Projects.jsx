@@ -15,7 +15,7 @@ const Projects = () => {
         <ProjectCard
           src={xray}
           link="https://github.com/hoofkhanh/pneumonia_prediction-vision_transformer"
-          h3="Pneumonia Aprediction Using Vision Transformer Model"
+          h3="Pneumonia Prediction Using Vision Transformer Model"
           p="Web App (AI)"
         />
         <ProjectCard
