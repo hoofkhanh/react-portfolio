@@ -15,6 +15,8 @@ const Skills = () => {
       <h1>Skills</h1>
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="JAVA" />
+        <SkillList src={checkMarkIcon} skill="PYTHON (AI)" />
+        <SkillList src={checkMarkIcon} skill="Tensorflow" />
         <SkillList src={checkMarkIcon} skill="Spring boot" />
         <SkillList src={checkMarkIcon} skill="Spring cloud" />
         <SkillList src={checkMarkIcon} skill="JS" />
