@@ -5,20 +5,21 @@ import xray from "../../assets/xray.jpg";
 import soundService from "../../assets/sound-service.jpg";
 import ProjectCard from "../../common/ProjectCard";
 import peptide from "../../assets/peptide.png";
+import artistCircle from "../../assets/artist-circle.jfif";
 
 const Projects = () => {
   return (
     <section id="projects" className={styles.container}>
       <h1 className="sectionTitle">Projects</h1>
       <h3 className="sectionTitle" style={{ color: "red" }}>
-        Intern At 'Bệnh viện nhi đồng 2' 2 months. Perform small modules such as
+        Intern At 'Bệnh viện nhi đồng 2' 3 months. Perform small modules such as
         code debugging, code testing, learning hospital procedures, and coded
         the pneumonia prediction application under the guidance of the company's
         seniors.
       </h3>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={peptide}
+          src={artistCircle}
           link="https://github.com/hoofkhanh/microservices-artist_circle_web"
           h3="Artist Circle Web (Microservice)"
           p="Web"
