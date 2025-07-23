@@ -19,6 +19,12 @@ const Projects = () => {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={peptide}
+          link="https://github.com/hoofkhanh/microservices-artist_circle_web"
+          h3="Artist Circle Web (Microservice)"
+          p="Web"
+        />
+        <ProjectCard
+          src={peptide}
           link="https://github.com/hoofkhanh/transformer_xai_peptide"
           h3="Antimicrobial Peptide Prediction (Transformer + XAI + Amazon EC2)"
           p="AI"
